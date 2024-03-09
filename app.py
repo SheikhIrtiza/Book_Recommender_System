@@ -8,7 +8,7 @@ similarity_score = pickle.load(open('similarity_scores.pkl', 'rb'))
 
 app = Flask(__name__)
  
- 
+ #using index defintion 
 @app.route('/')
 def index():
     return render_template('index.html',
